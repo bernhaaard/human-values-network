@@ -1,0 +1,47 @@
+{
+  "name": "human-values-network",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "3d-force-graph": "^1.73.3",
+    "compute-cosine-similarity": "^1.1.0",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.1.0",
+    "node-nlp": "^4.27.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-force-graph": "^1.44.4",
+    "react-scripts": "^5.0.1",
+    "three": "^0.167.0",
+    "three-render-objects": "^1.29.4",
+    "three-spritetext": "^1.8.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
