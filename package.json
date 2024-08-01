@@ -10,6 +10,7 @@
     "compute-cosine-similarity": "^1.1.0",
     "d3-scale": "^4.0.2",
     "d3-scale-chromatic": "^3.1.0",
+    "louvain-algorithm": "^1.0.4",
     "node-nlp": "^4.27.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

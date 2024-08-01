@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useCallback, useMemo  } from 'react';
 import ForceGraph3D from '3d-force-graph';
 import * as THREE from 'three';
 import SpriteText from 'three-spritetext';
@@ -6,48 +6,95 @@ import SpriteText from 'three-spritetext';
 const HumanValuesNetwork = () => {
   const containerRef = useRef();
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
+  const [embeddings, setEmbeddings] = useState({});
+  const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [selectedNode, setSelectedNode] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [similarityThreshold, setSimilarityThreshold] = useState(0.7);
 
-  useEffect(() => {
-    const categories = {
-      'Core Values': ['Integrity', 'Compassion', 'Wisdom', 'Courage', 'Honesty', 'Respect', 'Responsibility', 'Fairness'],
-      'Personal Growth': ['Self-awareness', 'Resilience', 'Creativity', 'Curiosity', 'Perseverance', 'Adaptability', 'Confidence', 'Humility'],
-      'Interpersonal': ['Empathy', 'Trust', 'Communication', 'Cooperation', 'Forgiveness', 'Loyalty', 'Generosity', 'Kindness'],
-      'Societal': ['Justice', 'Equality', 'Freedom', 'Democracy', 'Diversity', 'Sustainability', 'Peace', 'Community'],
-      'Ethical': ['Morality', 'Accountability', 'Transparency', 'Integrity', 'Fairness', 'Human Rights', 'Animal Welfare', 'Environmental Stewardship'],
-      'Professional': ['Excellence', 'Innovation', 'Leadership', 'Teamwork', 'Professionalism', 'Work Ethic', 'Continuous Learning', 'Customer Focus'],
+  const values = useMemo(() => [
+    'integrity', 'compassion', 'wisdom', 'courage', 'honesty', 'respect', 'responsibility', 'fairness',
+    'self-awareness', 'resilience', 'creativity', 'curiosity', 'perseverance', 'adaptability', 'empathy', 'trust',
+    'communication', 'cooperation', 'forgiveness', 'loyalty', 'justice', 'kindness', 'knowledge', 'leadership'
+  ], []);
+
+  const loadEmbeddings = useCallback(async () => {
+    setIsLoading(true);
+    try {
+      const response = await fetch(`http://localhost:3001/api/embeddings?words=${values.join(',')}`);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      setEmbeddings(data);
+      setError(null);
+    } catch (e) {
+      console.error("Failed to load embeddings:", e);
+      setError(`Failed to load embeddings: ${e.message}`);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [values]);
+
+  const calculateCosineSimilarity = useCallback((vec1, vec2) => {
+    const dotProduct = vec1.reduce((sum, val, i) => sum + val * vec2[i], 0);
+    const magnitude1 = Math.sqrt(vec1.reduce((sum, val) => sum + val * val, 0));
+    const magnitude2 = Math.sqrt(vec2.reduce((sum, val) => sum + val * val, 0));
+    return dotProduct / (magnitude1 * magnitude2);
+  }, []);
+
+  const generateGraphData = useCallback(() => {
+    const nodes = values.map((value, index) => ({ id: index, name: value, val: 10 }));
+    const links = [];
+
+    for (let i = 0; i < values.length; i++) {
+      for (let j = i + 1; j < values.length; j++) {
+        const similarity = calculateCosineSimilarity(embeddings[values[i]], embeddings[values[j]]);
+        if (similarity > similarityThreshold) {
+          links.push({ source: i, target: j, value: similarity });
+        }
+      }
+    }
+
+    // Assign groups based on connectivity
+    const assignGroups = () => {
+      let groupCounter = 0;
+      const nodeGroups = new Map();
+
+      const dfs = (nodeId, group) => {
+        if (nodeGroups.has(nodeId)) return;
+        nodeGroups.set(nodeId, group);
+        links.forEach(link => {
+          if (link.source === nodeId) dfs(link.target, group);
+          if (link.target === nodeId) dfs(link.source, group);
+        });
+      };
+
+      nodes.forEach(node => {
+        if (!nodeGroups.has(node.id)) {
+          dfs(node.id, groupCounter++);
+        }
+      });
+
+      nodes.forEach(node => {
+        node.group = nodeGroups.get(node.id);
+      });
     };
 
-    const nodes = [];
-    const links = [];
-    let id = 0;
-
-    // Create nodes
-    Object.entries(categories).forEach(([category, values], categoryIndex) => {
-      nodes.push({ id: id++, name: category, val: 20, group: categoryIndex, category: true });
-      values.forEach(value => {
-        nodes.push({ id: id++, name: value, val: 10, group: categoryIndex, category: false });
-      });
-    });
-
-    // Create links
-    nodes.forEach(node => {
-      if (!node.category) {
-        // Link to category
-        links.push({ source: node.id, target: nodes.find(n => n.category && n.group === node.group).id, value: 1 });
-
-        // Link to other values in same category
-        nodes.filter(n => !n.category && n.group === node.group && n.id !== node.id)
-          .forEach(target => links.push({ source: node.id, target: target.id, value: 0.5 }));
-
-        // Link to related values in other categories (simplified for brevity)
-        const relatedValues = nodes.filter(n => !n.category && n.group !== node.group)
-          .sort(() => 0.5 - Math.random()).slice(0, 3);
-        relatedValues.forEach(target => links.push({ source: node.id, target: target.id, value: 0.3 }));
-      }
-    });
-
+    assignGroups();
     setGraphData({ nodes, links });
-  }, []);
+  }, [embeddings, calculateCosineSimilarity, similarityThreshold, values]);
+
+  useEffect(() => {
+    loadEmbeddings();
+  }, [loadEmbeddings]);
+
+  useEffect(() => {
+    if (Object.keys(embeddings).length > 0) {
+      generateGraphData();
+    }
+  }, [embeddings, generateGraphData]);
 
   useEffect(() => {
     if (!graphData.nodes.length) return;
@@ -55,16 +102,17 @@ const HumanValuesNetwork = () => {
     const Graph = ForceGraph3D()(containerRef.current)
       .graphData(graphData)
       .nodeLabel('name')
-      .nodeColor(node => node.category ? '#ffffff' : colorByGroup(node.group))
+      .nodeColor(node => colorByGroup(node.group))
       .nodeOpacity(0.7)
       .nodeResolution(16)
-      .nodeVal(node => node.category ? 30 : 20)
-      .linkWidth(1)
-      .linkOpacity(0.2)
-      .linkColor(() => '#ffffff')
+      .nodeVal('val')
+      .linkWidth(link => link.value * 2)
+      .linkOpacity(0.5)
+      .linkColor(() => 'rgba(255,255,255,0.75)')
       .backgroundColor('#000011')
       .showNavInfo(false)
       .onNodeClick(node => {
+        setSelectedNode(node);
         const distance = 120;
         const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
         Graph.cameraPosition(
@@ -74,16 +122,16 @@ const HumanValuesNetwork = () => {
         );
       });
 
-    Graph.d3Force('charge').strength(-300);
-    Graph.d3Force('link').distance(link => link.value === 1 ? 80 : 50);
+    Graph.d3Force('charge').strength(-20);
+    Graph.d3Force('link').distance(link => 50 + (1 - link.value) * 100);
 
     Graph.nodeThreeObject(node => {
       const group = new THREE.Group();
 
       const sphere = new THREE.Mesh(
-        new THREE.SphereGeometry(node.category ? 15 : 10),
+        new THREE.SphereGeometry(10),
         new THREE.MeshLambertMaterial({
-          color: node.category ? '#ffffff' : colorByGroup(node.group),
+          color: colorByGroup(node.group),
           transparent: true,
           opacity: 0.7
         })
@@ -91,18 +139,16 @@ const HumanValuesNetwork = () => {
       group.add(sphere);
 
       const sprite = new SpriteText(node.name);
-      sprite.color = node.category ? colorByGroup(node.group) : '#000000';
-      sprite.backgroundColor = node.category ? '#ffffff' : 'rgba(255,255,255,0.7)';
+      sprite.color = '#ffffff';
+      sprite.backgroundColor = colorByGroup(node.group);
       sprite.padding = 2;
-      sprite.textHeight = node.category ? 8 : 6;
-      sprite.fontWeight = node.category ? 'bold' : 'normal';
-      sprite.renderOrder = 1; // Ensure text renders on top
-      sprite.material.depthTest = false; // Disable depth testing for text
+      sprite.textHeight = 8;
+      sprite.renderOrder = 1;
+      sprite.material.depthTest = false;
       group.add(sprite);
 
       return group;
     });
-
 
     // Add ambient light
     const ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
@@ -184,15 +230,75 @@ const HumanValuesNetwork = () => {
     return new THREE.Points(particles, particleMaterial);
   };
 
+  const handleSearch = () => {
+    const searchedNode = graphData.nodes.find(node =>
+      node.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    if (searchedNode) {
+      setSelectedNode(searchedNode);
+      // Move camera to focus on the searched node
+      const Graph = ForceGraph3D()(containerRef.current);
+      Graph.cameraPosition(
+        { x: searchedNode.x, y: searchedNode.y, z: searchedNode.z + 100 },
+        searchedNode,
+        2000
+      );
+    }
+  };
+
   return (
-    <div style={{ 
-      position: 'absolute', 
-      top: 0, 
-      left: 0, 
-      right: 0, 
-      bottom: 0, 
+    <div style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
       overflow: 'hidden'
     }}>
+      {isLoading && <div style={{ position: 'absolute', top: 10, left: 10, color: 'white' }}>Loading embeddings...</div>}
+      {error && (
+        <div style={{ position: 'absolute', top: 10, left: 10, color: 'red' }}>
+          {error}
+        </div>
+      )}
+      <div style={{ position: 'absolute', top: 10, right: 10, display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Search values"
+          style={{ marginBottom: 10 }}
+        />
+        <button onClick={handleSearch}>Search</button>
+        <input
+          type="range"
+          min="0"
+          max="1"
+          step="0.01"
+          value={similarityThreshold}
+          onChange={(e) => setSimilarityThreshold(parseFloat(e.target.value))}
+          style={{ marginTop: 10 }}
+        />
+        <span>Similarity Threshold: {similarityThreshold.toFixed(2)}</span>
+      </div>
+      {selectedNode && (
+        <div style={{ position: 'absolute', bottom: 10, left: 10, background: 'rgba(0,0,0,0.7)', padding: 10, color: 'white' }}>
+          <h3>{selectedNode.name}</h3>
+          <p>Connected values:</p>
+          <ul>
+            {graphData.links
+              .filter(link => link.source.id === selectedNode.id || link.target.id === selectedNode.id)
+              .map(link => {
+                const connectedNode = link.source.id === selectedNode.id ? link.target : link.source;
+                return (
+                  <li key={connectedNode.id}>
+                    {connectedNode.name} (Similarity: {link.value.toFixed(2)})
+                  </li>
+                );
+              })}
+          </ul>
+        </div>
+      )}
       <div ref={containerRef} style={{ width: '100%', height: '100%' }} />
     </div>
   );
