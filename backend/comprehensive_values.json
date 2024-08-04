@@ -1,0 +1,4154 @@
+[
+  {
+    "id": "value_0",
+    "name": "Soulful-bonding",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_13",
+      "value_18",
+      "value_23"
+    ]
+  },
+  {
+    "id": "value_1",
+    "name": "Spirituality",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.36125497599244655,
+      "utilitarian": 0.33991321524738277,
+      "deontological": 0.29883180876017074
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_64",
+      "value_119",
+      "value_171"
+    ],
+    "similarValues": [
+      "value_32",
+      "value_131",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_2",
+    "name": "Stability",
+    "category": "moral/social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3481110615844462,
+      "utilitarian": 0.346971211885722,
+      "deontological": 0.30491772652983173
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_28",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_108",
+      "value_123",
+      "value_160"
+    ]
+  },
+  {
+    "id": "value_3",
+    "name": "Success",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.30123202921538345,
+      "utilitarian": 0.39831605117371754,
+      "deontological": 0.30045191961089907
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_124",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_19",
+      "value_31",
+      "value_167"
+    ]
+  },
+  {
+    "id": "value_4",
+    "name": "Symbiosis",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3580075489570595,
+      "utilitarian": 0.3193420810676896,
+      "deontological": 0.3226503699752509
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_21",
+      "value_48",
+      "value_133"
+    ],
+    "similarValues": [
+      "value_26",
+      "value_139",
+      "value_166"
+    ]
+  },
+  {
+    "id": "value_5",
+    "name": "Temperance",
+    "category": "moral/social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.348275873382451,
+      "utilitarian": 0.33444245837877096,
+      "deontological": 0.31728166823877807
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_60",
+      "value_149",
+      "value_155"
+    ],
+    "similarValues": [
+      "value_29",
+      "value_41",
+      "value_80"
+    ]
+  },
+  {
+    "id": "value_6",
+    "name": "Thoughtfulness",
+    "category": "social/moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3532241134427937,
+      "utilitarian": 0.31266286035255214,
+      "deontological": 0.3341130262046543
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_95",
+      "value_142",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_49",
+      "value_88",
+      "value_99"
+    ]
+  },
+  {
+    "id": "value_7",
+    "name": "Tolerance",
+    "category": "moral/social",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.33081135805818274,
+      "utilitarian": 0.3375108106527228,
+      "deontological": 0.33167783128909434
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_59",
+      "value_151",
+      "value_160"
+    ]
+  },
+  {
+    "id": "value_8",
+    "name": "Transparency",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.35469501528242653,
+      "utilitarian": 0.3364967856521532,
+      "deontological": 0.30880819906542023
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_117",
+      "value_145",
+      "value_150"
+    ],
+    "similarValues": [
+      "value_43",
+      "value_144",
+      "value_148"
+    ]
+  },
+  {
+    "id": "value_9",
+    "name": "Trust",
+    "category": "social/moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.32863725781360376,
+      "utilitarian": 0.3516563775216494,
+      "deontological": 0.319706364664747
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_103",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_17",
+      "value_31",
+      "value_165"
+    ]
+  },
+  {
+    "id": "value_10",
+    "name": "Trustworthiness",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.35606214613987885,
+      "utilitarian": 0.3198324489454463,
+      "deontological": 0.32410540491467477
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_35",
+      "value_95",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_12",
+      "value_16",
+      "value_79"
+    ]
+  },
+  {
+    "id": "value_11",
+    "name": "Truth",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.34445268763017994,
+      "utilitarian": 0.3122666754007573,
+      "deontological": 0.34328063696906264
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_58",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_31",
+      "value_79"
+    ]
+  },
+  {
+    "id": "value_12",
+    "name": "Truthfulness",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3466815869086414,
+      "utilitarian": 0.306942721023702,
+      "deontological": 0.3463756920676565
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_95",
+      "value_150",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_10",
+      "value_16",
+      "value_129"
+    ]
+  },
+  {
+    "id": "value_13",
+    "name": "Unconditional-love",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_18",
+      "value_23"
+    ]
+  },
+  {
+    "id": "value_14",
+    "name": "Understanding",
+    "category": "social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3205178363239934,
+      "utilitarian": 0.3525806395886237,
+      "deontological": 0.32690152408738293
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_22",
+      "value_89",
+      "value_169"
+    ]
+  },
+  {
+    "id": "value_15",
+    "name": "Unity",
+    "category": "social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3353703753947311,
+      "utilitarian": 0.33070547747235407,
+      "deontological": 0.3339241471329148
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_116",
+      "value_125",
+      "value_145"
+    ],
+    "similarValues": [
+      "value_2",
+      "value_47",
+      "value_119"
+    ]
+  },
+  {
+    "id": "value_16",
+    "name": "Honesty",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.39042417081410596,
+      "utilitarian": 0.2964803341841595,
+      "deontological": 0.3130954950017345
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_47",
+      "value_95",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_10",
+      "value_79",
+      "value_129"
+    ]
+  },
+  {
+    "id": "value_17",
+    "name": "Honor",
+    "category": "social/moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3601465389443211,
+      "utilitarian": 0.31175584690225394,
+      "deontological": 0.32809761415342503
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reproduction",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_125",
+      "value_141"
+    ],
+    "similarValues": [
+      "value_9",
+      "value_134",
+      "value_165"
+    ]
+  },
+  {
+    "id": "value_18",
+    "name": "Honorable-conduct",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_23"
+    ]
+  },
+  {
+    "id": "value_19",
+    "name": "Hope",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.31029793608476425,
+      "utilitarian": 0.38936519266110353,
+      "deontological": 0.30033687125413217
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_3",
+      "value_31",
+      "value_167"
+    ]
+  },
+  {
+    "id": "value_20",
+    "name": "Humor",
+    "category": "moral/personal",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3664800516241905,
+      "utilitarian": 0.3220207183591683,
+      "deontological": 0.3114992300166412
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "reproduction",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_5",
+      "value_111",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_60",
+      "value_103",
+      "value_153"
+    ]
+  },
+  {
+    "id": "value_21",
+    "name": "Independence",
+    "category": "personal",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3223783284220057,
+      "utilitarian": 0.3198370835803907,
+      "deontological": 0.3577845879976036
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_85",
+      "value_103"
+    ],
+    "similarValues": [
+      "value_44",
+      "value_112",
+      "value_122"
+    ]
+  },
+  {
+    "id": "value_22",
+    "name": "Influence",
+    "category": "social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.310061445746476,
+      "utilitarian": 0.3511332730876154,
+      "deontological": 0.33880528116590874
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_125",
+      "value_127"
+    ],
+    "similarValues": [
+      "value_3",
+      "value_14",
+      "value_169"
+    ]
+  },
+  {
+    "id": "value_23",
+    "name": "Inner-harmony",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_24",
+    "name": "Insightfulness",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_25",
+    "name": "Intelligence",
+    "category": "social/moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3271910591422975,
+      "utilitarian": 0.33691388503783326,
+      "deontological": 0.3358950558198692
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_111",
+      "value_125",
+      "value_126"
+    ],
+    "similarValues": [
+      "value_9",
+      "value_48",
+      "value_119"
+    ]
+  },
+  {
+    "id": "value_26",
+    "name": "Intimacy",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.33390830170817626,
+      "utilitarian": 0.36517608722593015,
+      "deontological": 0.30091561106589365
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_114",
+      "value_139",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_27",
+    "name": "Introspection",
+    "category": "personal",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.33883878874571943,
+      "utilitarian": 0.33436305871187305,
+      "deontological": 0.32679815254240735
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_17",
+      "value_48",
+      "value_142"
+    ],
+    "similarValues": [
+      "value_116",
+      "value_139",
+      "value_147"
+    ]
+  },
+  {
+    "id": "value_28",
+    "name": "Intuition",
+    "category": "social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3582202475389207,
+      "utilitarian": 0.30731271495037377,
+      "deontological": 0.33446703751070567
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_2",
+      "value_17",
+      "value_47"
+    ],
+    "similarValues": [
+      "value_103",
+      "value_132",
+      "value_139"
+    ]
+  },
+  {
+    "id": "value_29",
+    "name": "Invention",
+    "category": "moral/social",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.32929209726199066,
+      "utilitarian": 0.32617922337162736,
+      "deontological": 0.34452867936638193
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_40",
+      "value_85",
+      "value_113"
+    ],
+    "similarValues": [
+      "value_50",
+      "value_132",
+      "value_138"
+    ]
+  },
+  {
+    "id": "value_30",
+    "name": "Reliability",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.37302059309721775,
+      "utilitarian": 0.3349027590826404,
+      "deontological": 0.2920766478201418
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_5",
+      "value_35",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_8",
+      "value_109",
+      "value_149"
+    ]
+  },
+  {
+    "id": "value_31",
+    "name": "Respect",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.32963538558264127,
+      "utilitarian": 0.3393396874928786,
+      "deontological": 0.3310249269244802
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_33",
+      "value_66",
+      "value_74"
+    ]
+  },
+  {
+    "id": "value_32",
+    "name": "Love",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.340947021676662,
+      "utilitarian": 0.3603624279806266,
+      "deontological": 0.29869055034271136
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_52",
+      "value_93",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_1",
+      "value_45",
+      "value_61"
+    ]
+  },
+  {
+    "id": "value_33",
+    "name": "Loyalty",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3557646378181911,
+      "utilitarian": 0.3190920402429387,
+      "deontological": 0.32514332193887013
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_95",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_31",
+      "value_129"
+    ]
+  },
+  {
+    "id": "value_34",
+    "name": "Responsibility",
+    "category": "moral/personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3344728970851786,
+      "utilitarian": 0.3277238482228619,
+      "deontological": 0.3378032546919596
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_93",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_31",
+      "value_51",
+      "value_52"
+    ]
+  },
+  {
+    "id": "value_35",
+    "name": "Joy",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3192348244750583,
+      "utilitarian": 0.3995734335921346,
+      "deontological": 0.28119174193280705
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_52",
+      "value_105",
+      "value_168"
+    ],
+    "similarValues": [
+      "value_77",
+      "value_78",
+      "value_94"
+    ]
+  },
+  {
+    "id": "value_36",
+    "name": "Learning",
+    "category": "social",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3342986892457022,
+      "utilitarian": 0.35299208304473256,
+      "deontological": 0.31270922770956516
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_113",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_14",
+      "value_77",
+      "value_161"
+    ]
+  },
+  {
+    "id": "value_37",
+    "name": "Listening",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.34015314038260497,
+      "utilitarian": 0.34271301351164246,
+      "deontological": 0.31713384610575257
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_116",
+      "value_125",
+      "value_126"
+    ],
+    "similarValues": [
+      "value_32",
+      "value_36",
+      "value_61"
+    ]
+  },
+  {
+    "id": "value_38",
+    "name": "Meaningful-work",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_39",
+    "name": "Mercy",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3546603334086907,
+      "utilitarian": 0.3255260031469663,
+      "deontological": 0.3198136634443429
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_95",
+      "value_116",
+      "value_117"
+    ],
+    "similarValues": [
+      "value_40",
+      "value_48",
+      "value_148"
+    ]
+  },
+  {
+    "id": "value_40",
+    "name": "Moderation",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3440094680094117,
+      "utilitarian": 0.3373942085638847,
+      "deontological": 0.31859632342670363
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_29",
+      "value_117",
+      "value_150"
+    ],
+    "similarValues": [
+      "value_43",
+      "value_144",
+      "value_148"
+    ]
+  },
+  {
+    "id": "value_41",
+    "name": "Nonviolence",
+    "category": "moral/personal",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.33370318730014875,
+      "utilitarian": 0.31342167261429754,
+      "deontological": 0.35287514008555365
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_25",
+      "value_109",
+      "value_117"
+    ],
+    "similarValues": [
+      "value_5",
+      "value_84",
+      "value_132"
+    ]
+  },
+  {
+    "id": "value_42",
+    "name": "Nurturing-nature",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_43",
+    "name": "Openness",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.34148536166713434,
+      "utilitarian": 0.3437721388096367,
+      "deontological": 0.314742499523229
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_64",
+      "value_117",
+      "value_150"
+    ],
+    "similarValues": [
+      "value_8",
+      "value_144",
+      "value_148"
+    ]
+  },
+  {
+    "id": "value_44",
+    "name": "Optimism",
+    "category": "personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.34534289655613476,
+      "utilitarian": 0.35996011436849146,
+      "deontological": 0.29469698907537384
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_41",
+      "value_81"
+    ],
+    "similarValues": [
+      "value_21",
+      "value_72",
+      "value_167"
+    ]
+  },
+  {
+    "id": "value_45",
+    "name": "Passion",
+    "category": "social/moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.35028441890812945,
+      "utilitarian": 0.347835663907889,
+      "deontological": 0.3018799171839815
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_64"
+    ],
+    "similarValues": [
+      "value_32",
+      "value_72",
+      "value_145"
+    ]
+  },
+  {
+    "id": "value_46",
+    "name": "Patience",
+    "category": "moral/social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.36625070787655434,
+      "utilitarian": 0.34273743462284667,
+      "deontological": 0.2910118575005991
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_58",
+      "value_95"
+    ],
+    "similarValues": [
+      "value_7",
+      "value_59",
+      "value_136"
+    ]
+  },
+  {
+    "id": "value_47",
+    "name": "Peace",
+    "category": "social/personal",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3010123812004083,
+      "utilitarian": 0.3515545809806511,
+      "deontological": 0.3474330378189406
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_52",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_2",
+      "value_15",
+      "value_51"
+    ]
+  },
+  {
+    "id": "value_48",
+    "name": "Justice",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.31179810523784196,
+      "utilitarian": 0.32359923445068073,
+      "deontological": 0.3646026603114774
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_116",
+      "value_125",
+      "value_152"
+    ],
+    "similarValues": [
+      "value_39",
+      "value_143",
+      "value_148"
+    ]
+  },
+  {
+    "id": "value_49",
+    "name": "Kindness",
+    "category": "social/moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.38604763399739,
+      "utilitarian": 0.3304545788337188,
+      "deontological": 0.2834977871688911
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_70",
+      "value_91",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_50",
+    "name": "Knowledge",
+    "category": "social/personal",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.34011874941936265,
+      "utilitarian": 0.33854632559239295,
+      "deontological": 0.32133492498824445
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_93",
+      "value_113"
+    ],
+    "similarValues": [
+      "value_51",
+      "value_137",
+      "value_138"
+    ]
+  },
+  {
+    "id": "value_51",
+    "name": "Leadership",
+    "category": "social/personal",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.3284680134639906,
+      "utilitarian": 0.3341898090828349,
+      "deontological": 0.3373421774531744
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_103",
+      "value_125",
+      "value_145"
+    ],
+    "similarValues": [
+      "value_47",
+      "value_50",
+      "value_160"
+    ]
+  },
+  {
+    "id": "value_52",
+    "name": "Veracity",
+    "category": "moral/personal",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.35224453664896943,
+      "utilitarian": 0.28698397944800325,
+      "deontological": 0.3607714839030273
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_35",
+      "value_47",
+      "value_95"
+    ],
+    "similarValues": [
+      "value_10",
+      "value_12",
+      "value_121"
+    ]
+  },
+  {
+    "id": "value_53",
+    "name": "Virtuousness",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_54",
+    "name": "Vitality (1)",
+    "category": "personal/social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3591735817531507,
+      "utilitarian": 0.3448054451332407,
+      "deontological": 0.2960209731136086
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_37",
+      "value_48",
+      "value_105"
+    ],
+    "similarValues": [
+      "value_55",
+      "value_130",
+      "value_132"
+    ]
+  },
+  {
+    "id": "value_55",
+    "name": "Vitality (2)",
+    "category": "personal/social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3591735817531507,
+      "utilitarian": 0.3448054451332407,
+      "deontological": 0.2960209731136086
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_37",
+      "value_48",
+      "value_105"
+    ],
+    "similarValues": [
+      "value_54",
+      "value_130",
+      "value_132"
+    ]
+  },
+  {
+    "id": "value_56",
+    "name": "Warmth",
+    "category": "social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3593154052451252,
+      "utilitarian": 0.35582366904645124,
+      "deontological": 0.28486092570842353
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_5",
+      "value_48",
+      "value_142"
+    ],
+    "similarValues": [
+      "value_77",
+      "value_78",
+      "value_103"
+    ]
+  },
+  {
+    "id": "value_57",
+    "name": "Wealth",
+    "category": "personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.333541795622365,
+      "utilitarian": 0.3615532361332784,
+      "deontological": 0.3049049682443566
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_105",
+      "value_113",
+      "value_168"
+    ],
+    "similarValues": [
+      "value_50",
+      "value_95",
+      "value_124"
+    ]
+  },
+  {
+    "id": "value_58",
+    "name": "Wellness",
+    "category": "personal",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3449445538456306,
+      "utilitarian": 0.3598692973268745,
+      "deontological": 0.29518614882749483
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_52",
+      "value_60",
+      "value_121"
+    ],
+    "similarValues": [
+      "value_116",
+      "value_124",
+      "value_141"
+    ]
+  },
+  {
+    "id": "value_59",
+    "name": "Willingness",
+    "category": "moral/social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.31548188107332437,
+      "utilitarian": 0.3484937951528349,
+      "deontological": 0.33602432377384067
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_4",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_7",
+      "value_151",
+      "value_160"
+    ]
+  },
+  {
+    "id": "value_60",
+    "name": "Wit",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.38983983460195304,
+      "utilitarian": 0.32009596992014805,
+      "deontological": 0.290064195477899
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_5",
+      "value_58",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_20",
+      "value_144"
+    ]
+  },
+  {
+    "id": "value_61",
+    "name": "Wonder",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.3560950226464214,
+      "utilitarian": 0.33918927000190474,
+      "deontological": 0.30471570735167386
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_116",
+      "value_125",
+      "value_141"
+    ],
+    "similarValues": [
+      "value_32",
+      "value_37",
+      "value_90"
+    ]
+  },
+  {
+    "id": "value_62",
+    "name": "Zeal",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.36458481178270974,
+      "utilitarian": 0.31868404130370054,
+      "deontological": 0.3167311469135897
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_47",
+      "value_83"
+    ],
+    "similarValues": [
+      "value_100",
+      "value_115",
+      "value_170"
+    ]
+  },
+  {
+    "id": "value_63",
+    "name": "Deep-connections",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_64",
+    "name": "Detachment",
+    "category": "moral/social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.30782637620782954,
+      "utilitarian": 0.3110155127369594,
+      "deontological": 0.381158111055211
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_86",
+      "value_95"
+    ],
+    "similarValues": [
+      "value_71",
+      "value_88",
+      "value_136"
+    ]
+  },
+  {
+    "id": "value_65",
+    "name": "Diligence",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.35137116595478113,
+      "utilitarian": 0.31908994718464506,
+      "deontological": 0.3295388868605738
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_5",
+      "value_95",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_79",
+      "value_129"
+    ]
+  },
+  {
+    "id": "value_66",
+    "name": "Dignity",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.368241758871771,
+      "utilitarian": 0.3130984410667254,
+      "deontological": 0.3186598000615036
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_95",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_31",
+      "value_79",
+      "value_135"
+    ]
+  },
+  {
+    "id": "value_67",
+    "name": "Efficiency",
+    "category": "moral/personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3233118355775451,
+      "utilitarian": 0.37460487935782105,
+      "deontological": 0.3020832850646338
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_84",
+      "value_109",
+      "value_123"
+    ]
+  },
+  {
+    "id": "value_68",
+    "name": "Emotional-intelligence",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_69",
+    "name": "Emotional-support",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_70",
+    "name": "Encouragement",
+    "category": "social/moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.33470833367557945,
+      "utilitarian": 0.3602314412528477,
+      "deontological": 0.3050602250715728
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "reproduction",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_52",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_45",
+      "value_49",
+      "value_72"
+    ]
+  },
+  {
+    "id": "value_71",
+    "name": "Endurance",
+    "category": "personal/moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3467189794445165,
+      "utilitarian": 0.34761752977216204,
+      "deontological": 0.30566349078332156
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_48",
+      "value_105",
+      "value_115"
+    ],
+    "similarValues": [
+      "value_83",
+      "value_88",
+      "value_153"
+    ]
+  },
+  {
+    "id": "value_72",
+    "name": "Enthusiasm",
+    "category": "social/moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3448442225026275,
+      "utilitarian": 0.36919878881292734,
+      "deontological": 0.2859569886844451
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_58",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_44",
+      "value_45",
+      "value_167"
+    ]
+  },
+  {
+    "id": "value_73",
+    "name": "Equal-relationship",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_74",
+    "name": "Equality",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.32000493241189193,
+      "utilitarian": 0.3236891654703955,
+      "deontological": 0.35630590211771257
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_103",
+      "value_116",
+      "value_145"
+    ],
+    "similarValues": [
+      "value_31",
+      "value_66",
+      "value_79"
+    ]
+  },
+  {
+    "id": "value_75",
+    "name": "Ethical-awareness",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_76",
+    "name": "Excellence",
+    "category": "moral/social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.4909418824210515,
+      "utilitarian": 0.2646255837369596,
+      "deontological": 0.24443253384198887
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_134",
+      "value_151",
+      "value_160"
+    ]
+  },
+  {
+    "id": "value_77",
+    "name": "Excitement (1)",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3178828287796142,
+      "utilitarian": 0.38201018012788013,
+      "deontological": 0.30010699109250577
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_105",
+      "value_115",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_35",
+      "value_56",
+      "value_78"
+    ]
+  },
+  {
+    "id": "value_78",
+    "name": "Excitement (2)",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3178828287796142,
+      "utilitarian": 0.38201018012788013,
+      "deontological": 0.30010699109250577
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_105",
+      "value_115",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_35",
+      "value_56",
+      "value_77"
+    ]
+  },
+  {
+    "id": "value_79",
+    "name": "Fairness",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.36905737444484255,
+      "utilitarian": 0.3051269393480055,
+      "deontological": 0.3258156862071519
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_116",
+      "value_117",
+      "value_150"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_66",
+      "value_74"
+    ]
+  },
+  {
+    "id": "value_80",
+    "name": "Faith",
+    "category": "moral/social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.34738568697367794,
+      "utilitarian": 0.31765776485484143,
+      "deontological": 0.3349565481714806
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_93",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_7",
+      "value_59",
+      "value_160"
+    ]
+  },
+  {
+    "id": "value_81",
+    "name": "Faithfulness",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3629092782147287,
+      "utilitarian": 0.3184032519568621,
+      "deontological": 0.3186874698284093
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_25",
+      "value_95",
+      "value_119"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_127",
+      "value_154"
+    ]
+  },
+  {
+    "id": "value_82",
+    "name": "Financial-security",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_83",
+    "name": "Fitness",
+    "category": "moral/personal",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3312757522618588,
+      "utilitarian": 0.34073928367150647,
+      "deontological": 0.3279849640666348
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_105",
+      "value_111",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_20",
+      "value_71",
+      "value_153"
+    ]
+  },
+  {
+    "id": "value_84",
+    "name": "Flexibility",
+    "category": "moral/personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.2945850579168502,
+      "utilitarian": 0.3820243944756853,
+      "deontological": 0.32339054760746455
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_117",
+      "value_155"
+    ],
+    "similarValues": [
+      "value_67",
+      "value_123",
+      "value_157"
+    ]
+  },
+  {
+    "id": "value_85",
+    "name": "Forbearance",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3628649315965941,
+      "utilitarian": 0.30114536878124104,
+      "deontological": 0.3359896996221649
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_90",
+      "value_95"
+    ],
+    "similarValues": [
+      "value_91",
+      "value_114",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_86",
+    "name": "Forgiveness",
+    "category": "social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.34413804252078156,
+      "utilitarian": 0.32905850465341907,
+      "deontological": 0.3268034528257993
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_64",
+      "value_138"
+    ],
+    "similarValues": [
+      "value_91",
+      "value_94",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_87",
+    "name": "Fortitude",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.36129630328151624,
+      "utilitarian": 0.3139943162871694,
+      "deontological": 0.3247093804313144
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_95",
+      "value_119",
+      "value_169"
+    ],
+    "similarValues": [
+      "value_156",
+      "value_162",
+      "value_172"
+    ]
+  },
+  {
+    "id": "value_88",
+    "name": "Friendliness",
+    "category": "social/moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.33784470294184704,
+      "utilitarian": 0.3564697113153147,
+      "deontological": 0.3056855857428383
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_11",
+      "value_48",
+      "value_142"
+    ],
+    "similarValues": [
+      "value_6",
+      "value_49",
+      "value_72"
+    ]
+  },
+  {
+    "id": "value_89",
+    "name": "Friendship",
+    "category": "social",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3192381114487458,
+      "utilitarian": 0.35143181250256295,
+      "deontological": 0.32933007604869113
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_116",
+      "value_120"
+    ],
+    "similarValues": [
+      "value_14",
+      "value_94",
+      "value_169"
+    ]
+  },
+  {
+    "id": "value_90",
+    "name": "Fun",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.346272946021287,
+      "utilitarian": 0.37029008837258515,
+      "deontological": 0.283436965606128
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_85",
+      "value_93",
+      "value_152"
+    ],
+    "similarValues": [
+      "value_32",
+      "value_61",
+      "value_137"
+    ]
+  },
+  {
+    "id": "value_91",
+    "name": "Generosity",
+    "category": "social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3680943581065398,
+      "utilitarian": 0.3407540921528427,
+      "deontological": 0.2911515497406176
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_94",
+      "value_139",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_92",
+    "name": "Goodness",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.4649145157422683,
+      "utilitarian": 0.27954381314244686,
+      "deontological": 0.25554167111528486
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_95",
+      "value_116",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_11",
+      "value_16",
+      "value_66"
+    ]
+  },
+  {
+    "id": "value_93",
+    "name": "Gracefulness",
+    "category": "personal",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3220774913010391,
+      "utilitarian": 0.30945436352458894,
+      "deontological": 0.368468145174372
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_9",
+      "value_19",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_99",
+      "value_124",
+      "value_125"
+    ]
+  },
+  {
+    "id": "value_94",
+    "name": "Gratitude",
+    "category": "social",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.33761008319441305,
+      "utilitarian": 0.34771432605522296,
+      "deontological": 0.314675590750364
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_91",
+      "value_114",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_95",
+    "name": "Growth",
+    "category": "personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.32739089188330867,
+      "utilitarian": 0.37780784506995574,
+      "deontological": 0.2948012630467357
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "reproduction",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_6",
+      "value_12",
+      "value_52"
+    ],
+    "similarValues": [
+      "value_44",
+      "value_57",
+      "value_67"
+    ]
+  },
+  {
+    "id": "value_96",
+    "name": "Happiness",
+    "category": "social/moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.28402004475883386,
+      "utilitarian": 0.4723590208598329,
+      "deontological": 0.24362093438133334
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_52"
+    ],
+    "similarValues": [
+      "value_35",
+      "value_45",
+      "value_102"
+    ]
+  },
+  {
+    "id": "value_97",
+    "name": "Harmonious-living",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_98",
+    "name": "Heartfelt-connection",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_99",
+    "name": "Peacefulness",
+    "category": "personal",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.32637420692598534,
+      "utilitarian": 0.34193209093115146,
+      "deontological": 0.3316937021428632
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_3",
+      "value_142",
+      "value_165"
+    ],
+    "similarValues": [
+      "value_93",
+      "value_124",
+      "value_126"
+    ]
+  },
+  {
+    "id": "value_100",
+    "name": "Perseverance",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.3780142575486424,
+      "utilitarian": 0.3298184085033778,
+      "deontological": 0.2921673339479798
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_25",
+      "value_119",
+      "value_169"
+    ],
+    "similarValues": [
+      "value_87",
+      "value_163",
+      "value_170"
+    ]
+  },
+  {
+    "id": "value_101",
+    "name": "Personal-development",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_102",
+    "name": "Pleasure",
+    "category": "social/moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.31989117686630075,
+      "utilitarian": 0.37913862297299045,
+      "deontological": 0.3009702001607088
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "reproduction",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_10",
+      "value_52",
+      "value_168"
+    ],
+    "similarValues": [
+      "value_45",
+      "value_96",
+      "value_145"
+    ]
+  },
+  {
+    "id": "value_103",
+    "name": "Playfulness",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.34090317150669963,
+      "utilitarian": 0.31521034410171017,
+      "deontological": 0.34388648439159014
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_48",
+      "value_142",
+      "value_143"
+    ],
+    "similarValues": [
+      "value_56",
+      "value_77",
+      "value_78"
+    ]
+  },
+  {
+    "id": "value_104",
+    "name": "Pride",
+    "category": "personal/social",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.33803438239247185,
+      "utilitarian": 0.35749564339445733,
+      "deontological": 0.30446997421307087
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_93"
+    ],
+    "similarValues": [
+      "value_45",
+      "value_130",
+      "value_133"
+    ]
+  },
+  {
+    "id": "value_105",
+    "name": "Principled",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.35707103894132813,
+      "utilitarian": 0.2849772220550707,
+      "deontological": 0.3579517390036012
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_35",
+      "value_77",
+      "value_78"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_113",
+      "value_129"
+    ]
+  },
+  {
+    "id": "value_106",
+    "name": "Promise-keeping",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_107",
+    "name": "Proper-ambition",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_108",
+    "name": "Prosperity",
+    "category": "personal/social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3302125266623024,
+      "utilitarian": 0.36948034131265783,
+      "deontological": 0.30030713202503984
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_52",
+      "value_64",
+      "value_168"
+    ],
+    "similarValues": [
+      "value_2",
+      "value_54",
+      "value_133"
+    ]
+  },
+  {
+    "id": "value_109",
+    "name": "Quality",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.32443006689195025,
+      "utilitarian": 0.3767643538912778,
+      "deontological": 0.2988055792167718
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_116",
+      "value_125",
+      "value_126"
+    ],
+    "similarValues": [
+      "value_30",
+      "value_144",
+      "value_149"
+    ]
+  },
+  {
+    "id": "value_110",
+    "name": "Quality-time",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_111",
+    "name": "Reciprocity",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.30512429101435967,
+      "utilitarian": 0.3080322876097994,
+      "deontological": 0.38684342137584105
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_25",
+      "value_150",
+      "value_153"
+    ],
+    "similarValues": [
+      "value_31",
+      "value_74",
+      "value_79"
+    ]
+  },
+  {
+    "id": "value_112",
+    "name": "Recognition",
+    "category": "personal",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.3437360350360028,
+      "utilitarian": 0.3379029459837562,
+      "deontological": 0.31836101898024094
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_85",
+      "value_115",
+      "value_155"
+    ],
+    "similarValues": [
+      "value_21",
+      "value_122",
+      "value_147"
+    ]
+  },
+  {
+    "id": "value_113",
+    "name": "Rectitude",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3820455583369178,
+      "utilitarian": 0.2900925522759044,
+      "deontological": 0.3278618893871778
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_36",
+      "value_47",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_10",
+      "value_12",
+      "value_16"
+    ]
+  },
+  {
+    "id": "value_114",
+    "name": "Reverence",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3472347395423415,
+      "utilitarian": 0.33106641333813847,
+      "deontological": 0.32169884711951996
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_95",
+      "value_142"
+    ],
+    "similarValues": [
+      "value_91",
+      "value_94",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_115",
+    "name": "Righteousness",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3656173313788629,
+      "utilitarian": 0.29708914387029084,
+      "deontological": 0.33729352475084623
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_77",
+      "value_78",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_62",
+      "value_92",
+      "value_100"
+    ]
+  },
+  {
+    "id": "value_116",
+    "name": "Risk-taking",
+    "category": "personal",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.32220789579933384,
+      "utilitarian": 0.36185372628113865,
+      "deontological": 0.3159383779195275
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_11",
+      "value_19",
+      "value_119"
+    ],
+    "similarValues": [
+      "value_124",
+      "value_125",
+      "value_141"
+    ]
+  },
+  {
+    "id": "value_117",
+    "name": "Romance",
+    "category": "social/personal",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.37044498681250476,
+      "utilitarian": 0.3281578269725471,
+      "deontological": 0.3013971862149481
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_8",
+      "value_105",
+      "value_148"
+    ],
+    "similarValues": [
+      "value_32",
+      "value_45",
+      "value_150"
+    ]
+  },
+  {
+    "id": "value_118",
+    "name": "Romantic-devotion",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_119",
+    "name": "Security",
+    "category": "social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3228216368605772,
+      "utilitarian": 0.3413181676468743,
+      "deontological": 0.33586019549254864
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_81",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_15",
+      "value_25",
+      "value_169"
+    ]
+  },
+  {
+    "id": "value_120",
+    "name": "Self-control",
+    "category": "social/personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3393726400920293,
+      "utilitarian": 0.355055093877164,
+      "deontological": 0.3055722660308067
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_25",
+      "value_119",
+      "value_142"
+    ],
+    "similarValues": [
+      "value_46",
+      "value_51",
+      "value_116"
+    ]
+  },
+  {
+    "id": "value_121",
+    "name": "Authenticity",
+    "category": "moral/personal",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3842202829117807,
+      "utilitarian": 0.29146194923698415,
+      "deontological": 0.32431776785123534
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_95",
+      "value_116",
+      "value_155"
+    ],
+    "similarValues": [
+      "value_52",
+      "value_123",
+      "value_149"
+    ]
+  },
+  {
+    "id": "value_122",
+    "name": "Autonomy",
+    "category": "personal",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.2989686201663385,
+      "utilitarian": 0.3318002196963517,
+      "deontological": 0.3692311601373099
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_37",
+      "value_90",
+      "value_155"
+    ],
+    "similarValues": [
+      "value_21",
+      "value_44",
+      "value_112"
+    ]
+  },
+  {
+    "id": "value_123",
+    "name": "Balance",
+    "category": "moral/personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3171500137644237,
+      "utilitarian": 0.365860879316431,
+      "deontological": 0.3169891069191453
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_2",
+      "value_67",
+      "value_84"
+    ]
+  },
+  {
+    "id": "value_124",
+    "name": "Self-discipline",
+    "category": "personal",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3365467293861721,
+      "utilitarian": 0.34693211677881564,
+      "deontological": 0.3165211538350122
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_3",
+      "value_48",
+      "value_143"
+    ],
+    "similarValues": [
+      "value_116",
+      "value_125",
+      "value_141"
+    ]
+  },
+  {
+    "id": "value_125",
+    "name": "Self-love",
+    "category": "personal",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.31078610736604323,
+      "utilitarian": 0.32495840104329804,
+      "deontological": 0.36425549159065873
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_3",
+      "value_119",
+      "value_143"
+    ],
+    "similarValues": [
+      "value_93",
+      "value_124",
+      "value_141"
+    ]
+  },
+  {
+    "id": "value_126",
+    "name": "Self-respect",
+    "category": "personal",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3194342013328383,
+      "utilitarian": 0.3374597252983898,
+      "deontological": 0.3431060733687719
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_25",
+      "value_37",
+      "value_119"
+    ],
+    "similarValues": [
+      "value_124",
+      "value_125",
+      "value_141"
+    ]
+  },
+  {
+    "id": "value_127",
+    "name": "Selflessness",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3659045448998225,
+      "utilitarian": 0.3084806062509293,
+      "deontological": 0.32561484884924824
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_25",
+      "value_95",
+      "value_119"
+    ],
+    "similarValues": [
+      "value_81",
+      "value_100",
+      "value_170"
+    ]
+  },
+  {
+    "id": "value_128",
+    "name": "Shared-values",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_129",
+    "name": "Sincerity",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3540453752883572,
+      "utilitarian": 0.3235557473339619,
+      "deontological": 0.322398877377681
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_58",
+      "value_95",
+      "value_150"
+    ],
+    "similarValues": [
+      "value_12",
+      "value_16",
+      "value_172"
+    ]
+  },
+  {
+    "id": "value_130",
+    "name": "Social Curiosity",
+    "category": "personal/social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.33686978701046544,
+      "utilitarian": 0.3254930351613111,
+      "deontological": 0.33763717782822344
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_54",
+      "value_55",
+      "value_133"
+    ]
+  },
+  {
+    "id": "value_131",
+    "name": "Wisdom",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.463845542582924,
+      "utilitarian": 0.2696144055635896,
+      "deontological": 0.26654005185348645
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_64",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_11",
+      "value_16",
+      "value_92"
+    ]
+  },
+  {
+    "id": "value_132",
+    "name": "Creativity",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3755725936674797,
+      "utilitarian": 0.3400742636376898,
+      "deontological": 0.28435314269483064
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_28",
+      "value_91",
+      "value_138"
+    ]
+  },
+  {
+    "id": "value_133",
+    "name": "Freedom",
+    "category": "personal/social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3193062034276086,
+      "utilitarian": 0.33935144115350346,
+      "deontological": 0.34134235541888786
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_104",
+      "value_108",
+      "value_130"
+    ]
+  },
+  {
+    "id": "value_134",
+    "name": "Achievement",
+    "category": "social/moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.4082892589745777,
+      "utilitarian": 0.31624048730528026,
+      "deontological": 0.27547025372014206
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reproduction",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_99",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_17",
+      "value_76",
+      "value_165"
+    ]
+  },
+  {
+    "id": "value_135",
+    "name": "Integrity",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.46430271867236683,
+      "utilitarian": 0.25936814583909235,
+      "deontological": 0.2763291354885409
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_116",
+      "value_117",
+      "value_145"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_66",
+      "value_79"
+    ]
+  },
+  {
+    "id": "value_136",
+    "name": "Resilience",
+    "category": "moral/social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3450456287323937,
+      "utilitarian": 0.3560468314278857,
+      "deontological": 0.2989075398397207
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_37",
+      "value_48",
+      "value_155"
+    ],
+    "similarValues": [
+      "value_46",
+      "value_59",
+      "value_151"
+    ]
+  },
+  {
+    "id": "value_137",
+    "name": "Purpose",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3118434532041407,
+      "utilitarian": 0.3406070029199218,
+      "deontological": 0.34754954387593756
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_93",
+      "value_99"
+    ],
+    "similarValues": [
+      "value_50",
+      "value_90",
+      "value_142"
+    ]
+  },
+  {
+    "id": "value_138",
+    "name": "Innovation",
+    "category": "social/personal",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.39117576870267473,
+      "utilitarian": 0.32544660088768174,
+      "deontological": 0.28337763040964364
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_52",
+      "value_86",
+      "value_155"
+    ],
+    "similarValues": [
+      "value_29",
+      "value_50",
+      "value_132"
+    ]
+  },
+  {
+    "id": "value_139",
+    "name": "Empathy",
+    "category": "social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.35299037761891433,
+      "utilitarian": 0.3430026404217432,
+      "deontological": 0.30400698195934245
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_26",
+      "value_91",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_140",
+    "name": "Harmony-with-Nature",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_141",
+    "name": "Self-Expression",
+    "category": "personal",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3266993701231984,
+      "utilitarian": 0.3510621417258899,
+      "deontological": 0.3222384881509118
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_17",
+      "value_47",
+      "value_61"
+    ],
+    "similarValues": [
+      "value_116",
+      "value_124",
+      "value_125"
+    ]
+  },
+  {
+    "id": "value_142",
+    "name": "Challenge",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.3142033809095474,
+      "utilitarian": 0.3439527193687631,
+      "deontological": 0.34184389972168955
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_6",
+      "value_93",
+      "value_99"
+    ],
+    "similarValues": [
+      "value_137",
+      "value_143",
+      "value_170"
+    ]
+  },
+  {
+    "id": "value_143",
+    "name": "Change",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.29783474996092013,
+      "utilitarian": 0.37093918429548656,
+      "deontological": 0.33122606574359337
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_103",
+      "value_124",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_43",
+      "value_109",
+      "value_142"
+    ]
+  },
+  {
+    "id": "value_144",
+    "name": "Clarity",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3413539822380542,
+      "utilitarian": 0.34234818945857826,
+      "deontological": 0.3162978283033674
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_58",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_8",
+      "value_43",
+      "value_149"
+    ]
+  },
+  {
+    "id": "value_145",
+    "name": "Thrill",
+    "category": "social/moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3288104922410704,
+      "utilitarian": 0.3653184345611527,
+      "deontological": 0.30587107319777695
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_12",
+      "value_135",
+      "value_154"
+    ],
+    "similarValues": [
+      "value_45",
+      "value_72",
+      "value_102"
+    ]
+  },
+  {
+    "id": "value_146",
+    "name": "Aesthetic-Appreciation",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3333333333333333,
+      "utilitarian": 0.3333333333333333,
+      "deontological": 0.3333333333333333
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_76",
+      "value_96",
+      "value_166"
+    ],
+    "similarValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ]
+  },
+  {
+    "id": "value_147",
+    "name": "Acceptance",
+    "category": "personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3288364635784023,
+      "utilitarian": 0.34622970016676213,
+      "deontological": 0.3249338362548354
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "reproduction",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_27",
+      "value_70",
+      "value_112"
+    ]
+  },
+  {
+    "id": "value_148",
+    "name": "Accountability",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.34173341919441047,
+      "utilitarian": 0.3297375303033914,
+      "deontological": 0.3285290505021981
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_117",
+      "value_145",
+      "value_150"
+    ],
+    "similarValues": [
+      "value_8",
+      "value_43",
+      "value_144"
+    ]
+  },
+  {
+    "id": "value_149",
+    "name": "Accuracy",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3519680860008792,
+      "utilitarian": 0.3476605738790796,
+      "deontological": 0.300371340120041
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_5",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_30",
+      "value_109",
+      "value_144"
+    ]
+  },
+  {
+    "id": "value_150",
+    "name": "Adventure",
+    "category": "personal",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3646246059751531,
+      "utilitarian": 0.31836436953957165,
+      "deontological": 0.31701102448527513
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_12",
+      "value_105",
+      "value_111"
+    ],
+    "similarValues": [
+      "value_57",
+      "value_58",
+      "value_90"
+    ]
+  },
+  {
+    "id": "value_151",
+    "name": "Appreciation",
+    "category": "moral/social",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.32939160254329974,
+      "utilitarian": 0.3671790080447385,
+      "deontological": 0.30342938941196174
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_7",
+      "value_59",
+      "value_160"
+    ]
+  },
+  {
+    "id": "value_152",
+    "name": "Assertiveness",
+    "category": "social",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.34272419359071893,
+      "utilitarian": 0.32090215875377687,
+      "deontological": 0.3363736476555043
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_48",
+      "value_90",
+      "value_150"
+    ],
+    "similarValues": [
+      "value_22",
+      "value_132",
+      "value_139"
+    ]
+  },
+  {
+    "id": "value_153",
+    "name": "Beauty",
+    "category": "moral/personal",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.34823132586325284,
+      "utilitarian": 0.34377705781225804,
+      "deontological": 0.3079916163244891
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_105",
+      "value_111",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_20",
+      "value_83",
+      "value_157"
+    ]
+  },
+  {
+    "id": "value_154",
+    "name": "Benevolence",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3543992130257897,
+      "utilitarian": 0.31435488255155397,
+      "deontological": 0.3312459044226564
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_95",
+      "value_117",
+      "value_145"
+    ],
+    "similarValues": [
+      "value_12",
+      "value_111",
+      "value_129"
+    ]
+  },
+  {
+    "id": "value_155",
+    "name": "Bliss",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.337498538946374,
+      "utilitarian": 0.3659630480602697,
+      "deontological": 0.2965384129933563
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_84",
+      "value_121",
+      "value_122"
+    ],
+    "similarValues": [
+      "value_1",
+      "value_32",
+      "value_92"
+    ]
+  },
+  {
+    "id": "value_156",
+    "name": "Bravery",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3671940570131456,
+      "utilitarian": 0.31061873587636785,
+      "deontological": 0.32218720711048643
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_95",
+      "value_169"
+    ],
+    "similarValues": [
+      "value_87",
+      "value_163",
+      "value_170"
+    ]
+  },
+  {
+    "id": "value_157",
+    "name": "Calmness",
+    "category": "moral/personal",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.35388638516261073,
+      "utilitarian": 0.33858514130675693,
+      "deontological": 0.30752847353063234
+    },
+    "psychologicalNeed": "physiological",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_25",
+      "value_137",
+      "value_142"
+    ],
+    "similarValues": [
+      "value_20",
+      "value_84",
+      "value_153"
+    ]
+  },
+  {
+    "id": "value_158",
+    "name": "Caring",
+    "category": "social",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.32756951729428124,
+      "utilitarian": 0.3568624049291307,
+      "deontological": 0.31556807777658813
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_52",
+      "value_121"
+    ],
+    "similarValues": [
+      "value_91",
+      "value_139",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_159",
+    "name": "Cleanliness",
+    "category": "moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.34450437543109835,
+      "utilitarian": 0.3597095017139651,
+      "deontological": 0.29578612285493644
+    },
+    "psychologicalNeed": "safety",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_35",
+      "value_122",
+      "value_150"
+    ],
+    "similarValues": [
+      "value_8",
+      "value_30",
+      "value_109"
+    ]
+  },
+  {
+    "id": "value_160",
+    "name": "Commitment",
+    "category": "moral/social",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3269364245093826,
+      "utilitarian": 0.32921794700140644,
+      "deontological": 0.34384562848921096
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_7",
+      "value_59",
+      "value_80"
+    ]
+  },
+  {
+    "id": "value_161",
+    "name": "Community",
+    "category": "social",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.31075196422978013,
+      "utilitarian": 0.36574637903314344,
+      "deontological": 0.3235016567370764
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_12",
+      "value_93",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_36",
+      "value_158",
+      "value_169"
+    ]
+  },
+  {
+    "id": "value_162",
+    "name": "Decisiveness",
+    "category": "moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3559192218941922,
+      "utilitarian": 0.2908536014511888,
+      "deontological": 0.35322717665461906
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_35",
+      "value_36",
+      "value_161"
+    ],
+    "similarValues": [
+      "value_16",
+      "value_87",
+      "value_172"
+    ]
+  },
+  {
+    "id": "value_163",
+    "name": "Dedication",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.37278717301170194,
+      "utilitarian": 0.3247052052002612,
+      "deontological": 0.30250762178803675
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_95",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_100",
+      "value_156",
+      "value_172"
+    ]
+  },
+  {
+    "id": "value_164",
+    "name": "Compassion",
+    "category": "social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.36226236458374345,
+      "utilitarian": 0.3391602087623984,
+      "deontological": 0.29857742665385817
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "group cohesion",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_13",
+      "value_18"
+    ],
+    "similarValues": [
+      "value_91",
+      "value_94",
+      "value_139"
+    ]
+  },
+  {
+    "id": "value_165",
+    "name": "Contribution",
+    "category": "social/moral",
+    "level": 4,
+    "philosophicalAlignment": {
+      "virtue": 0.3271686905664746,
+      "utilitarian": 0.370191507626532,
+      "deontological": 0.3026398018069934
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_99",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_9",
+      "value_17",
+      "value_134"
+    ]
+  },
+  {
+    "id": "value_166",
+    "name": "Contentment",
+    "category": "social",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.3205357794019756,
+      "utilitarian": 0.41266704401252047,
+      "deontological": 0.2667971765855039
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_0",
+      "value_25",
+      "value_142"
+    ],
+    "similarValues": [
+      "value_26",
+      "value_139",
+      "value_164"
+    ]
+  },
+  {
+    "id": "value_167",
+    "name": "Confidence",
+    "category": "moral",
+    "level": 3,
+    "philosophicalAlignment": {
+      "virtue": 0.3335360269770967,
+      "utilitarian": 0.37218269704314205,
+      "deontological": 0.29428127597976134
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_5",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_19",
+      "value_31",
+      "value_172"
+    ]
+  },
+  {
+    "id": "value_168",
+    "name": "Competency",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.352198215979995,
+      "utilitarian": 0.3317890737646682,
+      "deontological": 0.3160127102553367
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_35",
+      "value_47",
+      "value_96"
+    ],
+    "similarValues": [
+      "value_10",
+      "value_12",
+      "value_79"
+    ]
+  },
+  {
+    "id": "value_169",
+    "name": "Cooperation",
+    "category": "social",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.2995068734511672,
+      "utilitarian": 0.36746885699560466,
+      "deontological": 0.3330242695532282
+    },
+    "psychologicalNeed": "love",
+    "evolutionaryOrigin": "reciprocal altruism",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_93",
+      "value_116",
+      "value_125"
+    ],
+    "similarValues": [
+      "value_14",
+      "value_89",
+      "value_161"
+    ]
+  },
+  {
+    "id": "value_170",
+    "name": "Courage",
+    "category": "moral",
+    "level": 5,
+    "philosophicalAlignment": {
+      "virtue": 0.35462227326952633,
+      "utilitarian": 0.3244636633201899,
+      "deontological": 0.32091406341028395
+    },
+    "psychologicalNeed": "self-actualization",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_119",
+      "value_169"
+    ],
+    "similarValues": [
+      "value_100",
+      "value_156",
+      "value_172"
+    ]
+  },
+  {
+    "id": "value_171",
+    "name": "Courtesy",
+    "category": "personal/moral",
+    "level": 2,
+    "philosophicalAlignment": {
+      "virtue": 0.3526566239831565,
+      "utilitarian": 0.33732897394481987,
+      "deontological": 0.3100144020720237
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "kin selection",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_95",
+      "value_125",
+      "value_141"
+    ],
+    "similarValues": [
+      "value_17",
+      "value_31",
+      "value_33"
+    ]
+  },
+  {
+    "id": "value_172",
+    "name": "Determination",
+    "category": "moral",
+    "level": 1,
+    "philosophicalAlignment": {
+      "virtue": 0.35102510317090785,
+      "utilitarian": 0.3285908695874362,
+      "deontological": 0.3203840272416559
+    },
+    "psychologicalNeed": "esteem",
+    "evolutionaryOrigin": "survival",
+    "neurologicalCorrelate": "To be determined",
+    "conflictingValues": [
+      "value_4",
+      "value_58",
+      "value_116"
+    ],
+    "similarValues": [
+      "value_129",
+      "value_163",
+      "value_167"
+    ]
+  }
+]

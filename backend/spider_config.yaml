@@ -1,0 +1,20 @@
+# Common settings
+base_path: 'downloaded_content'
+download_delay: 2
+concurrent_requests: 1
+
+# Source-specific settings
+sources:
+  stanford_encyclopedia_philosophy:
+    user_agent: 'SEPSpider (+https://example.com)'
+    start_url: 'https://plato.stanford.edu/contents.html'
+    allowed_domains:
+      - 'plato.stanford.edu'
+
+  internet_encyclopedia_philosophy:
+    user_agent: 'IEPSpider (+https://example.com)'
+    start_url: 'https://iep.utm.edu/contents/'
+    allowed_domains:
+      - 'iep.utm.edu'
+
+# Add more sources as needed
