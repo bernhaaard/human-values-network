@@ -20,7 +20,7 @@ const embeddingService = new WordEmbeddingService();
     console.log('Embeddings loaded successfully');
   } catch (error) {
     console.error('Error loading embeddings:', error);
-    process.exit(1); // Exit the process if we can't load embeddings
+    // Don't exit, just log the error
   }
 })();
 

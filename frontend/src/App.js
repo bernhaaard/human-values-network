@@ -1,5 +1,5 @@
 import React from 'react';
-import HumanValuesNetwork from './HumanValuesNetwork';
+import HumanValuesNetwork from './components/HumanValuesNetwork';
 
 function App() {
   return (
