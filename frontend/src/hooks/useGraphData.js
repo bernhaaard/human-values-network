@@ -5,11 +5,10 @@ const useGraphData = () => {
   const [embeddings, setEmbeddings] = useState({});
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [similarityThreshold, setSimilarityThreshold] = useState(0.7);
+  const [similarityThreshold, setSimilarityThreshold] = useState(0.65);
 
   // Memoize the values array
   const values = useMemo(() => [
-    "intelligence",
     "Soulful-bonding",
     "Spirituality",
     "Stability",
@@ -189,16 +188,22 @@ const useGraphData = () => {
   const loadEmbeddings = useCallback(async () => {
     setIsLoading(true);
     try {
-      // For debugging, log the URL
       const url = `http://localhost:3001/api/embeddings?words=${values.join(',')}`;
       console.log('Fetching embeddings from:', url);
-
+  
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
       console.log('Received embeddings:', data);
+      
+      // Check if all values have corresponding embeddings
+      const missingEmbeddings = values.filter(value => !data[value]);
+      if (missingEmbeddings.length > 0) {
+        console.warn('Missing embeddings for:', missingEmbeddings);
+      }
+  
       setEmbeddings(data);
       setError(null);
     } catch (e) {

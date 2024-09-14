@@ -124,7 +124,7 @@ const Graph3D = ({ graphData, onNodeClick, searchTerm }) => {
           { x: searchedNode.x, y: searchedNode.y, z: searchedNode.z }, // new position
           1000 // transition duration
         );
-        Graph.zoom(2, 1000);
+        Graph.zoomToFit(1000, 100); // duration, padding
       }
     }
 
