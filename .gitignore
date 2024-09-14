@@ -120,3 +120,23 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Three.js and D3.js specific (if you're using any build tools or generating files)
+/dist
+/build
+
+# If you're using any 3D model files that shouldn't be in version control
+*.obj
+*.mtl
+*.fbx
+*.gltf
+
+# If you're using any data files that shouldn't be in version control
+*.csv
+*.json
+*.geojson
+
+# If you're using any specific IDE for 3D development
+*.blend1
+*.max
+*.c4d
