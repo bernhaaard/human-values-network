@@ -119,7 +119,11 @@ const Graph3D = ({ graphData, onNodeClick, searchTerm }) => {
         node.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
       if (searchedNode) {
-        Graph.centerAt(searchedNode.x, searchedNode.y, searchedNode.z, 1000);
+        Graph.cameraPosition(
+          { x: searchedNode.x, y: searchedNode.y, z: searchedNode.z + 200 }, // look at position
+          { x: searchedNode.x, y: searchedNode.y, z: searchedNode.z }, // new position
+          1000 // transition duration
+        );
         Graph.zoom(2, 1000);
       }
     }
